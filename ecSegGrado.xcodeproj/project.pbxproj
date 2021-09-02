@@ -15,6 +15,8 @@
 		C4222BEF26D9F4AA009475BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4222BED26D9F4AA009475BA /* LaunchScreen.storyboard */; };
 		C4222BFA26D9F4AA009475BA /* ecSegGradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4222BF926D9F4AA009475BA /* ecSegGradoTests.swift */; };
 		C4222C0526D9F4AA009475BA /* ecSegGradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4222C0426D9F4AA009475BA /* ecSegGradoUITests.swift */; };
+		C4222C1626E02DAA009475BA /* Ecuacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4222C1526E02DAA009475BA /* Ecuacion.swift */; };
+		C4222C1826E02E85009475BA /* ecSegGrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4222C1726E02E85009475BA /* ecSegGrado.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C4222C0026D9F4AA009475BA /* ecSegGradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecSegGradoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4222C0426D9F4AA009475BA /* ecSegGradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecSegGradoUITests.swift; sourceTree = "<group>"; };
 		C4222C0626D9F4AA009475BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4222C1526E02DAA009475BA /* Ecuacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecuacion.swift; sourceTree = "<group>"; };
+		C4222C1726E02E85009475BA /* ecSegGrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecSegGrado.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		C4222BE126D9F4A7009475BA /* ecSegGrado */ = {
 			isa = PBXGroup;
 			children = (
+				C4222C1226E02D12009475BA /* Model */,
 				C4222BE226D9F4A8009475BA /* AppDelegate.swift */,
 				C4222BE426D9F4A8009475BA /* SceneDelegate.swift */,
 				C4222BE626D9F4A8009475BA /* ViewController.swift */,
@@ -126,6 +131,31 @@
 				C4222C0626D9F4AA009475BA /* Info.plist */,
 			);
 			path = ecSegGradoUITests;
+			sourceTree = "<group>";
+		};
+		C4222C1226E02D12009475BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4222C1426E02D45009475BA /* ValueObject */,
+				C4222C1326E02D39009475BA /* Tools */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4222C1326E02D39009475BA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C4222C1726E02E85009475BA /* ecSegGrado.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C4222C1426E02D45009475BA /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				C4222C1526E02DAA009475BA /* Ecuacion.swift */,
+			);
+			path = ValueObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4222C1826E02E85009475BA /* ecSegGrado.swift in Sources */,
+				C4222C1626E02DAA009475BA /* Ecuacion.swift in Sources */,
 				C4222BE726D9F4A8009475BA /* ViewController.swift in Sources */,
 				C4222BE326D9F4A8009475BA /* AppDelegate.swift in Sources */,
 				C4222BE526D9F4A8009475BA /* SceneDelegate.swift in Sources */,
